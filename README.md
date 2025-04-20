@@ -32,6 +32,7 @@ Bạn phải cài đặt bản Dev C++ mình để ở đây
 
 5. Trong cửa sổ **Parameters**, ở ô **Linker**, thêm dòng sau vào: `-lopengl32 -lglu32 -lfreeglut`
    ![Linker parameters](image-5.png)
+
 6.Rồi bạn dán code vào file main.cpp và chạy thử nhé.
 
 ## 4. Code mẫu
