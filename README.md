@@ -2,9 +2,10 @@
 
 ## 1. Cài đặt Dev C++
 Bạn phải cài đặt bản Dev C++ mình để ở đây
+[Dev C++](https://github.com/megait004/install-GLUT-on-DevC-/tree/main/DEV%20C%2B%2B)
 
 ## 2. Cài đặt OpenGL
-1. Tải file [freglut-MSVC-3.0.0](https://www.transmissionzero.co.uk/software/freeglut-devel/freeglut-MSVC-3.0.0.zip) và giải nén.
+1. Tải file [freglut-MSVC-3.0.0](https://github.com/megait004/install-GLUT-on-DevC-/tree/main/freeglut-MSVC-3.0.0-2.mp/freeglut) và giải nén.
 
 2. Mở File Explorer và đi đến đường dẫn: `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32`
 
