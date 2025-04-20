@@ -13,7 +13,7 @@ Bạn phải cài đặt bản Dev C++ mình để ở đây
    - Trong thư mục `include`, copy thư mục `GL` và dán vào đường dẫn: `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include` (thay thế cả thư mục `GL` hiện có)
    ![Dán để thay thế cả thư mục GL này luôn](image.png)
 
-   - Trong thư mục `lib\x64`, copy file `freeglut.lib` và dán vào đường dẫn: `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib`
+   - Trong thư mục `lib\x64` của file `freeglut-MSVC-3.0.0`, copy file `freeglut.lib` và dán vào đường dẫn: `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib`
    ![Dán vào đây](image-1.png)
 
    - Trong thư mục `bin`, copy file `freeglut.dll` và dán vào `C:\Windows\System32`
