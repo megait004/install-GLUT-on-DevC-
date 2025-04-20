@@ -32,3 +32,27 @@ Bạn phải cài đặt bản Dev C++ mình để ở đây
 
 5. Trong cửa sổ **Parameters**, ở ô **Linker**, thêm dòng sau vào: `-lopengl32 -lglu32 -lfreeglut`
    ![Linker parameters](image-5.png)
+6.Rồi bạn dán code vào file main.cpp và chạy thử nhé.
+
+## 4. Code mẫu
+```c
+#include <GL/glut.h>
+
+void display() {
+    glClear(GL_COLOR_BUFFER_BIT);
+    glBegin(GL_TRIANGLES);
+        glVertex2f(-0.5f, -0.5f);
+        glVertex2f(0.5f, -0.5f);
+        glVertex2f(0.0f, 0.5f);
+    glEnd();
+    glFlush();
+}
+
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutCreateWindow("OpenGL Test");
+    glutDisplayFunc(display);
+    glutMainLoop();
+    return 0;
+}
+```
