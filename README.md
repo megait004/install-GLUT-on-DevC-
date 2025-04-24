@@ -17,6 +17,7 @@ Bạn phải cài đặt bản Dev C++ mình để ở đây
    ![Dán vào đây](image-1.png)
 
    - Trong thư mục `bin` của file `freeglut-MSVC-3.0.0`, copy file `freeglut.dll` và dán vào `C:\Windows\System32`
+![Dán vào đây](image-6.png)
 
 ## 3. Tạo project mới
 1. Mở Dev C++, chọn **New project**
